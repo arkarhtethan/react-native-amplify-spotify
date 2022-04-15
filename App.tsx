@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
+import { SafeAreaView } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import PlayerWidget from './src/components/PlayerWidget';
 
 import useCachedResources from './src/hooks/useCachedResources';
 import useColorScheme from './src/hooks/useColorScheme';
@@ -16,6 +18,7 @@ export default function App () {
       <SafeAreaProvider>
         <Navigation colorScheme={colorScheme} />
         <StatusBar />
+        <PlayerWidget />
       </SafeAreaProvider>
     );
   }
