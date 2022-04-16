@@ -2,7 +2,6 @@ import { StyleSheet, } from 'react-native'
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: "row",
         backgroundColor: "#131313",
         width: "100%",
         position: "absolute",
@@ -20,6 +19,13 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         marginHorizontal: 10,
+    },
+    progress: {
+        height: 4,
+        backgroundColor: "#bcbcbc"
+    },
+    row: {
+        flexDirection: "row",
     },
     image: {
         width: 75,

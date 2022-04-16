@@ -17,7 +17,7 @@ const AlbumComponent = (props: IAlbumProps) => {
         <TouchableWithoutFeedback onPress={onPress}>
             <View style={styles.container}>
                 <Image source={{ uri: props.album.imageUri }} style={styles.image} />
-                <Text style={styles.text}>{props.album.artistsHeadline}</Text>
+                <Text style={styles.text}>{props.album.artistsHeading}</Text>
             </View>
         </TouchableWithoutFeedback>
     )

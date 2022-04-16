@@ -1,8 +1,8 @@
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import styles from "./styles";
-import { Album } from '../../../types';
 import AlbumComponent from '../Album';
+import { Album } from '../../../types';
 
 interface IAlbumCategoryProps {
     title: string;
